@@ -1,0 +1,16 @@
+
+
+#canvas {
+  --size: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: var(--size);
+  height: var(--size);
+}
+
+.pixel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0px 0px 0 #000;
+}
